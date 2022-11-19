@@ -540,9 +540,7 @@ footer p{
     .employee-info p{
         width: 100%;
     }
-}
 
-@media (max-width: 425px){
     form{
         flex-direction: column;
     }
@@ -554,7 +552,9 @@ footer p{
     form .email{
         display: none;
     }
+}
 
+@media (max-width: 425px){
     form .btn{
         width: 100%;
     }
